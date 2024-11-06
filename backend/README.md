@@ -43,35 +43,36 @@ These instructions will help you set up the project on your local machine and de
    - Go to the Azure Portal and create a new Cosmos DB account.
    - Create a database named AzureResume and a container named Counter.
     - Insert a document with the following structure to initialize the counter:
-    ```json
-    {
-    "id": "1",
-    "count": 0
-    }
+       ```json
+        {
+       "id": "1",
+       "count": 0
+        }
 4. **Configure Connection String**:
 
     - In the Azure Portal, navigate to your Cosmos DB account, and copy the Primary Connection String.
     - Create a local `local.settings.json` file in the project’s root directory, and add the connection string:
-    ```json
-    {
-    "IsEncrypted": false,
-    "Values": {
-    "AzureWebJobsStorage": "<Your_Azure_Storage_Connection_String>",
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "AzureResumeConnectionString": "<Your_Cosmos_DB_Connection_String>"
+        ```json
+            {
+        "IsEncrypted": false,
+        "Values": {
+        "AzureWebJobsStorage": "<Your_Azure_Storage_Connection_String>",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureResumeConnectionString": "<Your_Cosmos_DB_Connection_String>"
+            }
         }
-    }
-    ```
+        ```
 ### Running the Project Locally
 
 1. **Start the Function**: Run the following command to start the function locally:
-```bash
-func host start
-```
+
+    ```bash
+    func host start
+    ```
 2. **Test the Function**: Use any API testing tool like Postman or simply curl to send a GET request to:
-```bash
-http://localhost:7071/api/GetResumeCounter
-```
+    ```bash
+    http://localhost:7071/api/GetResumeCounter
+    ```
 
 -----
 ## Project Structure
