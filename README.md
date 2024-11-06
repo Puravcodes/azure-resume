@@ -30,6 +30,10 @@ For a full demonstration of the resume site and view counter in action, watch th
 
 
 
+https://github.com/user-attachments/assets/74fa1483-fe52-43a8-b4d3-7df2a6b8d700
+
+
+
 ---
 
 Thank you for viewing my Azure Resume project! This application is a great example of how modern cloud services can enhance a personal website, and I’m excited to continue exploring more cloud-based solutions in the future.
