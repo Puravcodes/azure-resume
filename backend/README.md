@@ -6,7 +6,8 @@ This is an Azure Function application that tracks the number of times a resume h
 
 Watch this video to see how the Azure Resume Counter works in action:
 
-https://github.com/user-attachments/assets/007847f9-b33d-4fca-bb7d-d1fb4a4ed081
+https://github.com/user-attachments/assets/eb6b7bab-54ce-45a6-b258-5c88c7c3836c
+
 
 ## Features
 
