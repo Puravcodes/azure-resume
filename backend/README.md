@@ -2,6 +2,12 @@
 
 This is an Azure Function application that tracks the number of times a resume has been accessed. It leverages Cosmos DB for data storage, maintaining a simple counter that increments with each request. The app is written in C# and deployed on Azure Functions.
 
+## Demo Video
+
+Watch this video to see how the Azure Resume Counter works in action:
+
+https://github.com/user-attachments/assets/007847f9-b33d-4fca-bb7d-d1fb4a4ed081
+
 ## Features
 
 - **Incremental Counter**: Each request increments the resume access count in a Cosmos DB collection.
