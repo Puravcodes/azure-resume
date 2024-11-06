@@ -6,6 +6,9 @@ This project showcases my resume on a personal website, with a unique feature: a
 
 Below is the workflow of the project, illustrating the interactions between each component. *(Please refer to the diagram I created for visual details)*.
 
+<div aligh="center">
+<img alt-text="Project_Workflow" src="https://github.com/user-attachments/assets/5c50218a-342d-47e0-910d-ebc7986c89f5">
+</div>
 
 ## Project Description
 
@@ -25,7 +28,7 @@ This project utilizes the following Azure services:
 
 For a full demonstration of the resume site and view counter in action, watch the video below:
 
-*Link your video or embed it here.*
+
 
 ---
 
